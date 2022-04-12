@@ -1,0 +1,93 @@
+//package Typics
+
+public class Alumni {
+    private String fullName, firstName, lastName;
+    private int studentNumber;
+    private char sex;
+    private int Age;
+    private String Faculty;
+    private int gradYear;
+    private String degree;
+    private String booksBorrowed;
+    private String booksOverdue;
+    private float Balance;
+
+    public Alumni() {
+        this.fullName = FM;
+        this.firstName = fm;
+        this.lastName = lm;
+        this.studentNumber = sNL;
+        this.sex = gender;
+        this.Age = age;
+        this.Faculty = FAC;
+        this.gradYear = graduation;
+        this.degree = certificate;
+        this.booksBorrowed = bBd;
+        this.booksOverdue = bOd;
+        this.Balance = balance;
+    }
+
+    public String getfullName() {
+        return fullName;
+    }
+        return firstName + " " + lastName;
+    }
+
+    public void setfirstName(String firstName) {
+        firstName = firstName;
+    }
+    public void setlastName(String lastName) {
+        lastName = lastName;
+    }
+
+    public int getstudentNumber() {
+        return studentNumber;
+    }
+    public void setStudentNumber(int studentNumber) {
+        studentNumber = studentNumber;
+    }
+    public char getsex() {
+        return sex;
+    }
+    public void setSex(char sex) {
+        sex = sex;
+    }
+    public int getAge() {
+        return Age;
+    }
+    public void setAge(int Age) {
+        age = age;
+    }
+    public String getFaculty() {
+        return Faculty;
+    }
+    public void setFaculty(String Faculty) {
+       Faculty = Faculty;
+    }
+
+    public int getgradYear() {
+        return gradYear;
+    }
+    public void setgradYear(int gradYear) {
+       gradYear = gradYear;
+    }
+
+    public String getBooksBorrowed() {
+        return booksBorrowed;
+    }
+    public void setBooksBorrowed(String booksBorrowed) {
+        booksBorrowed = booksBorrowed; 	
+
+    public String getBooksOverdue() {
+        return booksOverdue;
+    }
+    public void setBooksOverdue(String booksOverdue) {
+        booksOverdue = booksOverdue;
+    }
+    public void getBalance(float Balance) {
+        return Balance;
+    }
+    public void setBalance(float Balance) {
+        Balance = Balance;
+    }
+}
