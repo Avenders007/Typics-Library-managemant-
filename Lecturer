@@ -1,0 +1,63 @@
+package Typics;
+
+public class Lecturer {
+	private String Lecturer_Name;
+	private String Lecturer_Surname;
+	private int Lecturer_ID;
+	private String Books_Borrowed;
+	private String Books_Overdue;
+	private Float Balance; 
+	
+	public Lecturer(String LecName, String LecSurname, int LecID, String BksBrrwd, String BksOvd, Float blnce) {
+		this.Lecturer_Name = LecName;
+		this.Lecturer_Surname = LecSurname;
+		this.Lecturer_ID = LecID;
+		this.Books_Borrowed = BksBrrwd; 
+		this.Books_Overdue = BksOvd;
+		this.Balance = blnce; 
+	}
+	
+	public String getLecturerFullname() {
+		return Lecturer_Name + " " + Lecturer_Surname;
+	}
+	
+	public void setLecturerFirsName(String lecturer_name) {
+		Lecturer_Name = lecturer_name;
+	}
+	
+	public void setLecturerSurname(String lecturer_surname) {
+		Lecturer_Surname = lecturer_surname;
+	}
+	
+	public int getLecturerID() {
+		return Lecturer_ID;
+	}
+	
+	public void setLecturerID(int lecturer_ID) {
+		Lecturer_ID = lecturer_ID;
+	}
+	
+	public String getBooks_Borrowed() {
+		return Books_Borrowed;
+	}
+	
+	public void setBooks_Borrowed(String books_borrowed) {
+		Books_Borrowed = books_borrowed;
+	}
+	
+	public String getBooks_Overdue() {
+		return Books_Overdue;
+	}
+	
+	public void getBooks_Overdue(String books_overdue) {
+		Books_Overdue = books_overdue;
+	}
+	
+	public float getBalance() {
+		return Balance;
+	}
+	
+	public void setBalance(float balance) {
+		Balance = balance;
+	}
+}
