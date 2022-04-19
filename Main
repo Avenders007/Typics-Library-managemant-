@@ -1,0 +1,70 @@
+package Typics;
+
+public class Library_Admin {
+    private String firstName, lastName;
+    private int ID;
+    private char sex;
+    private int Age;
+    private char Schedule;//*Fucking schedule?????
+    private char Order;//*Fucking order?????
+    
+    public Library_Admin (String fm, String lm, int iD, char gender, int time, char Schdle, char Odr) {
+        this.firstName = fm;
+        this.lastName = lm;
+        this.ID = iD;
+        this.sex = gender;
+        this.Age = time;
+        this.Schedule = Schdle;
+        this.Order = Odr;
+    }
+
+
+    public String getFullName() {
+        return firstName + " " + lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+    public void setfirstName(String fName) {
+        firstName = fName;
+    }
+    public String getlastName() {
+        return lastName;
+    }
+    public void setlastName(String lName) {
+        lastName = lName;
+    }
+
+    public int getID() {
+        return ID;
+    }
+    public void setID(int sid) {
+    	ID = sid;
+    }
+    public char getsex() {
+        return sex;
+    }
+    public void setSex(char gender) {
+        sex = gender;
+    }
+    public int getAge() {
+        return Age;
+    }
+    public void setAge(int HowOld) {
+        Age = HowOld;
+    }
+    public char getSchedule() {
+        return Schedule;
+    }
+    public void setSchedule(char schedule) {
+        Schedule = schedule;
+    }
+    public char getOrder() {
+        return Order;
+    }
+    public void setOrder(char order) {
+        Order = order;
+    }
+
+}
