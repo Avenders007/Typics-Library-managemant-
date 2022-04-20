@@ -1,0 +1,54 @@
+//package com.company;
+
+public class Authors {
+    private String firstName, lastName;
+    private int Total_Books_Contributed;
+    private string Books_Contributed;
+    private string genres;
+    
+
+    public Authors(String FM, String fm, String lm, int Total_Books_contributed, String Books_contributed, String genres, ) {
+        this.firstName = fm;
+        this.lastName = lm;
+        this.Books_Contributed= Bkcd;
+        this.Total_Books_Contributed = Tbkcd;
+        this.genres = gnrs;
+    }
+
+    }
+    public String getFirstName() {
+        return firstName + " " + lastName;
+    }
+
+    public void setfirstName(String firstName) {
+        firstName = firstName;
+    }
+    public void setlastName(String lastName) {
+        lastName = lastName;
+    }
+
+    public void getBooks_Contributed(string Books_Contributed) {
+        Books_Contributed = Books_Contributed;
+    }
+
+    }
+    public int getTotal_Books_Contributed() {
+        return Total_Books_Contributed;
+    }
+    public void setTotal_Books_Contributed(int Total_Books_Contributed) {
+         Total_Books_Contributed =  Total_Books_Contributed;
+    }
+    public String getBooks_Contributed() {
+        return Books_Contributed;
+    }
+    public void setBooks_Contributed(String Books_Contributed) {
+        Books_Contributed = Books_Contributed;
+    }
+    public String getGenres() {
+        return Genres;
+    }
+    public void setGenres(String Genres) {
+        Genres = Genres;
+
+    }
+}
