@@ -1,0 +1,40 @@
+package Typics;
+
+public class Library_Staff {
+    private String firstName;
+    private String lastName;
+    private int id;
+    
+
+    public Library_Staff(String firNam, String lasNam, int idn) {
+        this.firstName = firNam;
+        this.lastName = lasNam;
+        this.id = idn;
+        
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+    public void setFirstName(String firstName) {
+        firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+    public void setLastName(String lastName) {
+        lastName = lastName;
+    }
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        id = id;
+    }
+
+    
+
+
+}
