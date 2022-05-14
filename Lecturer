@@ -1,40 +1,53 @@
 package Typics;
 
 public class Lecturer {
-	private String Lecturer_Name;
-	private String Lecturer_Surname;
-	private int Lecturer_ID;
-	private String Books_Borrowed;
-	private String Books_Overdue;
-	private Float Balance; 
+	private String FirstName;
+	private String LastName;
+	private String Gender;
+	private int LecturerID;
+	private String Books_Borrowed;//This will be Codabar 
+	private double Balance;  
 	
-	public Lecturer(String LecName, String LecSurname, int LecID, String BksBrrwd, String BksOvd, Float blnce) {
-		this.Lecturer_Name = LecName;
-		this.Lecturer_Surname = LecSurname;
-		this.Lecturer_ID = LecID;
-		this.Books_Borrowed = BksBrrwd; 
-		this.Books_Overdue = BksOvd;
-		this.Balance = blnce; 
+//	public Lecturer(String LecName, String LecSurname, String LecGender, int LecID, String BksBrrwd, String BksOvd, Float blnce) {
+//		this.FirstName = LecName;
+//		this.LastName = LecGender;
+//		this.Gender = LecGender;
+//		this.LecturerID = LecID;
+//		this.Books_Borrowed = BksBrrwd; 
+//		this.Books_Overdue = BksOvd;
+//		this.Balance = blnce; 
+//	}
+	
+	public void setfirstName(String Fname) {
+		FirstName = Fname;
 	}
 	
-	public String getLecturerFullname() {
-		return Lecturer_Name + " " + Lecturer_Surname;
+	public String getFirstName() {
+		return FirstName;
 	}
 	
-	public void setLecturerFirsName(String lecturer_name) {
-		Lecturer_Name = lecturer_name;
+	public void setLastName(String Lname) {
+		LastName = Lname;
 	}
 	
-	public void setLecturerSurname(String lecturer_surname) {
-		Lecturer_Surname = lecturer_surname;
+	public String getLastName() {
+		return LastName;
+	}
+	
+	public void setGender(String gnder) {
+		Gender = gnder;
+	}
+	
+	public String getGender(){
+		return Gender;
+	}
+	
+	public void setLecturerID(int lecId) {
+		LecturerID = lecId;
 	}
 	
 	public int getLecturerID() {
-		return Lecturer_ID;
-	}
-	
-	public void setLecturerID(int lecturer_ID) {
-		Lecturer_ID = lecturer_ID;
+		return LecturerID;
 	}
 	
 	public String getBooks_Borrowed() {
@@ -45,19 +58,11 @@ public class Lecturer {
 		Books_Borrowed = books_borrowed;
 	}
 	
-	public String getBooks_Overdue() {
-		return Books_Overdue;
-	}
-	
-	public void getBooks_Overdue(String books_overdue) {
-		Books_Overdue = books_overdue;
-	}
-	
-	public float getBalance() {
+	public double getBalance() {
 		return Balance;
 	}
 	
-	public void setBalance(float balance) {
+	public void setBalance(double balance) {
 		Balance = balance;
 	}
 }
