@@ -1,40 +1,89 @@
 package Typics;
 
-public class Library_Staff {
-    private String firstName;
-    private String lastName;
-    private int id;
-    
-
-    public Library_Staff(String firNam, String lasNam, int idn) {
-        this.firstName = firNam;
-        this.lastName = lasNam;
-        this.id = idn;
-        
+public class Students {
+private String FirstName;
+private String LastName;
+    private int StudentNumber;
+    private int Age;
+    private String Gender;
+    private String CourseCode;
+    private String BookBorrowed;
+    private double Balance;
+   
+   
+//   public Students(String firNam, String lasNam, int booBor, String booOve, Float bal, int stuNum, int ag, String cou, String fac) {
+//    this.booksBorrowed = booBor;
+//    this.booksOverdue = booOve;
+//    this.balance = bal;
+//    this.studentNumber = stuNum;
+//    this.age = ag;
+//    this.course = cou;
+//    this.faculty = fac;
+//    
+//   }
+   
+    public void setFirstName(String fName) {
+    FirstName = fName;
     }
-
+   
     public String getFirstName() {
-        return firstName;
+    return FirstName;
     }
-    public void setFirstName(String firstName) {
-        firstName = firstName;
+   
+    public void setLastName(String Lname) {
+    LastName = Lname;
     }
-
+   
     public String getLastName() {
-        return lastName;
+    return LastName;
     }
-    public void setLastName(String lastName) {
-        lastName = lastName;
+   
+    public void setStudentNumber(int SNumber) {
+    StudentNumber = SNumber;
     }
-
-    public int getId() {
-        return id;
+   
+    public int getStudentNumber() {
+    return StudentNumber;
     }
-    public void setId(int id) {
-        id = id;
+   
+    public void setAge(int age) {
+    Age = age;
     }
-
-    
-
+   
+    public int getAge() {
+    return Age;
+    }
+   
+    public void setGender(String sex) {
+    Gender = sex;
+    }
+   
+    public String getGender() {
+    return Gender;
+    }
+   
+    public void setCourseCode(String Ccode) {
+    CourseCode = Ccode;
+    }
+   
+    public String getCourseCode() {
+    return CourseCode;
+    }
+   
+    public void setBookBorrowed(String bBorrowed) {
+    BookBorrowed = bBorrowed;
+    }
+   
+    public String getBookBorrowed() {
+    return BookBorrowed;
+    }
+   
+    public void setBalance(double balance) {
+    Balance = balance;
+    }
+   
+    public double getBalance() {
+    return Balance;
+    }
 
 }
