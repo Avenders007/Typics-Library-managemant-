@@ -1,95 +1,98 @@
-//package com.company;
+package Typics;
 
 public class Alumni {
-    private String fullName, firstName, lastName;
-    private int studentNumber;
-    private char sex;
-    private int Age;
-    private String Faculty;
-    private int gradYear;
-    private String degree;
-    private String booksBorrowed;
-    private String booksOverdue;
-    private float Balance;
+   private String firstName;
+   private String lastName;  
+   private int studentNumber;
+   private String Gender;
+   private int Age;
+   private int GradYear;
+   private String CourseCode;
+   private String bookBorrowed;
+   private double Balance;
 
-    public Alumni(String FM, String fm, String lm, int sNL, char gender, int time, String FAC, int graduation, String certificate, String bBd, String bOd, float blnce) {
-        this.fullName = FM;
-        this.firstName = fm;
-        this.lastName = lm;
-        this.studentNumber = sNL;
-        this.sex = gender;
-        this.Age = time;
-        this.Faculty = FAC;
-        this.gradYear = graduation;
-        this.degree = certificate;
-        this.booksBorrowed = bBd;
-        this.booksOverdue = bOd;
-        this.Balance = blnce;
-    }
+//    public Alumni(String FM, String fm, String lm, int sNL, char gender, int time, String FAC, int graduation, String certificate, String bBd, String bOd, float blnce) {//*Age is represented as time
+//        this.firstName = fm;
+//        this.lastName = lm;
+//        this.studentNumber = sNL;
+//        this.sex = gender;
+//        this.Age = time;
+//        this.Faculty = FAC;
+//        this.gradYear = graduation;
+//        this.degree = certificate;
+//        this.booksBorrowed = bBd;
+//        this.booksOverdue = bOd;
+//        this.Balance = blnce;
+//    }
 
-    public String getfullName() {
-        return fullName;
-    }
-    public void setfullName(String fullName) {
-        fullName = fullName;
-    }
-    public String getFirstName() {
-        return firstName + " " + lastName;
-    }
+   public void setfirstName(String fName) {
+       firstName = fName;
+   }
+   
+   public String getfirstName() {
+    return firstName;
+   }
+   public void setlastName(String LName) {
+       lastName = LName;
+   }
+   
+   public String getlastName() {
+    return lastName;
+   }
+   
+   public void setStudentNumber(int StNumber) {
+       studentNumber = StNumber;
+   }
 
-    public void setfirstName(String firstName) {
-        firstName = firstName;
-    }
-    public void setlastName(String lastName) {
-        lastName = lastName;
-    }
-
-    public int getstudentNumber() {
-        return studentNumber;
-    }
-    public void setStudentNumber(int studentNumber) {
-        studentNumber = studentNumber;
-    }
-    public char getsex() {
-        return sex;
-    }
-    public void setSex(char sex) {
-        sex = sex;
-    }
-    public int getAge() {
-        return Age;
-    }
-    public void setAge(int Age) {
-        Age = Age;
-    }
-    public String getFaculty() {
-        return Faculty;
-    }
-    public void setFaculty(String Faculty) {
-        Faculty = Faculty;
-    }
-    public int getgradYear() {
-        return gradYear;
-    }
-    public void setgradYear(int gradYear) {
-        gradYear = gradYear;
-    }
-    public String getdegree() {
-        return degree;
-    }
-    public void setdegree(String degree) {
-        degree = degree;
-    }
-    public String getBooksOverdue() {
-        return booksOverdue;
-    }
-    public void setBooksOverdue(String booksOverdue) {
-        booksOverdue = booksOverdue;
-    }
-    public float getBalance() {
-        return Balance;
-    }
-    public void setBalance(float Balance) {
-        Balance = Balance;
-    }
-}
+   public int getstudentNumber() {
+       return studentNumber;
+   }
+   
+   public void setGender(String gender) {
+    Gender = gender;
+   }
+ 
+   public String getGender() {
+       return Gender;
+   }
+   
+   public void setAge(int age) {
+       Age = age;
+   }
+ 
+   public int getAge() {
+       return Age;
+   }
+   
+   public void setgradYear(int gradYear) {
+    GradYear = gradYear;
+   }
+ 
+   public int getgradYear() {
+       return GradYear;
+   }
+ 
+   public void setCourseCode(String Ccode) {
+    CourseCode = Ccode;
+   }
+   
+   public String getCourseCode() {
+    return CourseCode;
+   }
+ 
+   public void setbookBorrowed(String Bborrowed) {
+    bookBorrowed = Bborrowed;
+   }
+   
+   public String getbooksborrwed() {
+    return bookBorrowed;
+   }
+   
+   public void setBalance(double balance) {
+       Balance = balance;
+   }
+   
+   public double getBalance() {
+       return Balance;
+   }
+ 
