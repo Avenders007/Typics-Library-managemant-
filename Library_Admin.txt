@@ -1,69 +1,39 @@
-//package com.company;
+package Typics;
 
 public class Library_Admin {
-    private String fullName, firstName, lastName;
     private int ID;
-    private char sex;
-    private int Age;
-    private vchar Schedule;
-    private vchar Order;
- 
-    public Library_Admin(String FM, String fm, String lm, int iD, char gender, int time, vchar Schdle, vchar Odr ) {
-        this.fullName = FM;
-        this.firstName = fm;
-        this.lastName = lm;
-        this.ID= iD;
-        this.sex = gender;
-        this.Age = time;
-        this.Schedule = Schdle;
-        this.Order = Odr;
-    }
-
-    public String getfullName() {
-        return fullName;
-    }
-    public void setfullName(String fullName) {
-        fullName = fullName;
-    }
-    public String getFirstName() {
-        return firstName + " " + lastName;
-    }
-
-    public void setfirstName(String firstName) {
-        firstName = firstName;
-    }
-    public void setlastName(String lastName) {
-        lastName = lastName;
-    }
+    private String FirstName;
+    private String LastName;
+   
+//    public Library_Admin (int iD, String fm, String lm, String gender) {
+//     this.Gender = gender;
+//     this.lastName = lm;
+//     this.fullName = fm;
+//     this.ID = iD;
+//    }
 
     public int getID() {
         return ID;
     }
-    public void ID(int ID) {
-        ID = ID;
+   
+    public void setID(int Setid) {
+    ID = Setid;
     }
-    public char getsex() {
-        return sex;
+   
+    public void setFirstName(String SetFm) {
+    FirstName = SetFm;
     }
-    public void setSex(char sex) {
-        sex = sex;
+   
+    public String getFirstName() {
+    return FirstName;
     }
-    public int getAge() {
-        return Age;
+   
+    public void setLastName(String Lm) {
+    LastName = Lm;
     }
-    public void setAge(int Age) {
-        Age = Age;
+   
+    public String getLastName() {
+    return LastName;
     }
-    public vchar getSchedule() {
-        return Schedule;
-    }
-    public void setSchedule(vchar Schedule) {
-        Schedule = Schedule;
-    }
-    public vchar getOrder() {
-        return Order;
-    }
-    public void setOrder(vchar Order) {
-        Order = Order;
-    }
+   
 }
