@@ -1,54 +1,59 @@
-//package com.company;
+package Typics;
 
-public class Authors {
-    private String firstName, lastName;
-    private int Total_Books_Contributed;
-    private string Books_Contributed;
-    private string genres;
-    
+public class Author {
+private String FirstName;
+private String LastName;
+private int AuthorID;
+//    private String Books_Contributed;
+    private String Genres;
 
-    public Authors(String FM, String fm, String lm, int Total_Books_contributed, String Books_contributed, String genres, ) {
-        this.firstName = fm;
-        this.lastName = lm;
-        this.Books_Contributed= Bkcd;
-        this.Total_Books_Contributed = Tbkcd;
-        this.genres = gnrs;
+
+//    public Author (String fm, String lm, int TBC, String BC, String gs) {
+//        this.Total_Books_Contributed= TBC;
+//        this.Books_Contributed = BC;
+//        this.Genres = gs;
+//    }
+
+    public void setFirstName(String Fname) {
+    FirstName = Fname;
     }
 
-    }
     public String getFirstName() {
-        return firstName + " " + lastName;
+    return FirstName;
     }
 
-    public void setfirstName(String firstName) {
-        firstName = firstName;
-    }
-    public void setlastName(String lastName) {
-        lastName = lastName;
+    public void setLastName(String Lname) {
+    LastName = Lname;
     }
 
-    public void getBooks_Contributed(string Books_Contributed) {
-        Books_Contributed = Books_Contributed;
+    public String getLastName() {
+    return LastName;
     }
 
+    public void setAuthorID(int aID) {
+    AuthorID = aID;
+
     }
-    public int getTotal_Books_Contributed() {
-        return Total_Books_Contributed;
+
+    public int getAuthorID() {
+    return AuthorID;
     }
-    public void setTotal_Books_Contributed(int Total_Books_Contributed) {
-         Total_Books_Contributed =  Total_Books_Contributed;
+
+//    public void setBooks_Contributed(String books_Contributed) {
+//        Books_Contributed = books_Contributed;
+//    }
+//   
+//    public String getBooks_Contributed() {
+//        return Books_Contributed;
+//    }
+
+    public void setGenres(String genres) {
+        Genres = genres;
+
     }
-    public String getBooks_Contributed() {
-        return Books_Contributed;
-    }
-    public void setBooks_Contributed(String Books_Contributed) {
-        Books_Contributed = Books_Contributed;
-    }
+
     public String getGenres() {
         return Genres;
     }
-    public void setGenres(String Genres) {
-        Genres = Genres;
 
-    }
 }
