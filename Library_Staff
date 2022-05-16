@@ -1,40 +1,40 @@
 package Typics;
 
 public class Library_Staff {
-    private String firstName;
-    private String lastName;
-    private int id;
-    
+    private String FirstName;
+    private String LastName;
+    private int StaffID;
+   
 
-    public Library_Staff(String firNam, String lasNam, int idn) {
-        this.firstName = firNam;
-        this.lastName = lasNam;
-        this.id = idn;
-        
-    }
+//    public Library_Staff(String firNam, String lasNam, int idn) {
+//        this.firstName = firNam;
+//        this.lastName = lasNam;
+//        this.id = idn;
+//        
+//    }
 
-    public String getFirstName() {
-        return firstName;
-    }
-    public void setFirstName(String firstName) {
-        firstName = firstName;
-    }
+    public void setFirstName(String firstName) {
+    FirstName = firstName;
+    }
+   
+    public String getFirstName() {
+        return FirstName;
+    }
 
-    public String getLastName() {
-        return lastName;
-    }
-    public void setLastName(String lastName) {
-        lastName = lastName;
-    }
+    public void setLastName(String lastName) {
+    LastName = lastName;
+    }
+   
+    public String getLastName() {
+        return LastName;
+    }
+   
+    public void setStaffID(int id) {
+    StaffID = id;
+    }
 
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        id = id;
-    }
-
-    
-
+    public int getStaffID() {
+        return StaffID;
+    }
 
 }
