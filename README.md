@@ -6,5 +6,5 @@
 * Policies on Academic Honesty and Integrity as indicated in the course outline and
 * the NUST general information and regulations - Yearbook 2022
 *
-* @author <Your Name> <Student_Number>
+* @authors Abisai Sem <221084703> Darlene Daniel <221135057> Darren Benade <221111093> Shange Shikongo <221103554> George Diyeve <221053662> Chaiiu Kamanya <221134980>
 */ 
